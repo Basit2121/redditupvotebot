@@ -1,1 +1,1 @@
-SlightlyTalented12
+PASSWORD = SlightlyTalented12
