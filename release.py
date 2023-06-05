@@ -12,7 +12,7 @@ if choice == '1':
 
     def get_temp_email():
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=True, channel='msedge')
             context = browser.new_context()
             page = context.new_page()
             
